@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+model Program {
+  ProgramCode String    @id(map: "PK_Program") @db.VarChar(10)
+  Description String    @db.VarChar(60)
+  Student     Student[]
+}
+
+model Student {
+  StudentID   String  @id(map: "PK_Student") @db.VarChar(10)
+  FirstName   String  @db.VarChar(25)
+  LastName    String  @db.VarChar(25)
+  Email       String? @db.VarChar(50)
+  ProgramCode String  @db.VarChar(10)
+  Program     Program @relation(fields: [ProgramCode], references: [ProgramCode], onUpdate: NoAction, map: "FK_Program_Student_ProgramCode")
+}
