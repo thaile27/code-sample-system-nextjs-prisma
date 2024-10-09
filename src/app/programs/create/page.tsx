@@ -1,7 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+import { ProgramCreateForm } from "@/components/programs/ProgramCreateForm";
 import { HandleCreateProgram } from "@/actions/actions";
-import prisma from "@/lib/db";
-import Link from "next/link";
 
 export default async function CreateProgramPage() {
   return (
@@ -9,7 +7,7 @@ export default async function CreateProgramPage() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <h1 className=" font-semibold">Create New Program Page</h1>
 
-        <form action={HandleCreateProgram} className="flex flex-col gap-4">
+        {/* <form action={HandleCreateProgram} className="flex flex-col gap-4">
           <label htmlFor="programCode">Program Code:</label>
           <input
             className="border border-black"
@@ -27,7 +25,9 @@ export default async function CreateProgramPage() {
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             Create Program
           </button>
-        </form>
+        </form> */}
+
+        <ProgramCreateForm />
       </main>
     </div>
   );

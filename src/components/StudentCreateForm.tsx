@@ -63,7 +63,6 @@ export function CreateStudentForm({ className }: { className?: string }) {
       // Call the HandleCreateStudent function
       await HandleCreateStudent(formData);
 
-      console.log("Student created successfully");
       // Optionally, reset form or redirect
       form.reset();
       router.push("/students");

@@ -5,20 +5,25 @@ import { redirect } from "next/navigation";
 
 import { BCS } from "@/lib/domain/BCS";
 import { Student } from "@/lib/domain/Student";
+import { error } from "console";
 
 export async function HandleCreateProgram(formData: FormData) {
-  const programCode = formData.get("programCode") as string;
-  const description = formData.get("description") as string;
+  const programCode = formData.get("ProgramCode") as string;
+  const description = formData.get("Description") as string;
 
-  const RequestDirector: BCS = new BCS();
-  const Confirmation: boolean = RequestDirector.CreateProgram(
-    programCode,
-    description
-  );
+  if (programCode.length > 0 && description.length > 0) {
+    const RequestDirector: BCS = new BCS();
+    const Confirmation: Promise<boolean> = RequestDirector.CreateProgram(
+      programCode,
+      description
+    );
 
-  console.log(Confirmation);
+    console.log(Confirmation);
 
-  redirect("/programs");
+    redirect("/programs");
+  } else {
+    throw error("Error with creating a new program");
+  }
 }
 
 export async function UpdateProgram(formData: FormData) {

@@ -2,8 +2,8 @@ import prisma from "@/lib/db";
 import Link from "next/link";
 
 import { GetProgram } from "@/actions/actions";
-import { DeleteButton } from "@/components/DeleteButton";
-import { EditButton } from "@/components/EditButton";
+import { DeleteButton } from "@/components/programs/DeleteButton";
+import { EditButton } from "@/components/programs/EditButton";
 
 export default async function ProgramPage({ params }) {
   const { programCode } = params;
