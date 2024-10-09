@@ -2,7 +2,7 @@
 import prisma from "@/lib/db";
 import Link from "next/link";
 
-import { CreateStudentForm } from "@/components/StudentCreateForm";
+import { CreateStudentForm } from "@/components/students/StudentCreateForm";
 
 export default async function CreateStudentPage() {
   return (

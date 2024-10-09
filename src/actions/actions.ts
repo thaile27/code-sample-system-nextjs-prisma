@@ -26,7 +26,7 @@ export async function HandleCreateProgram(formData: FormData) {
   }
 }
 
-export async function UpdateProgram(formData: FormData) {
+export async function HandleUpdateProgram(formData: FormData) {
   const programCode = formData.get("programCode") as string;
   const description = formData.get("description") as string;
 
@@ -74,4 +74,6 @@ export async function HandleCreateStudent(formData: FormData) {
 
   const RequestDirector: BCS = new BCS();
   await RequestDirector.EnrollStudent(AcceptedStudent, ProgramCode);
+
+  redirect("/students");
 }

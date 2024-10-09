@@ -2,45 +2,87 @@
   "node": {
     "148b86120430a3990d2a40fba695cc3159ac3293": {
       "workers": {
-        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!"
+        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!",
+        "app/students/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=true!",
+        "app/programs/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!",
+        "app/programs/edit/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/programs/create/page": "action-browser"
+        "app/programs/create/page": "action-browser",
+        "app/students/create/page": "action-browser",
+        "app/programs/[programCode]/page": "rsc",
+        "app/programs/edit/[programCode]/page": "rsc"
       }
     },
     "28457da648ed58528f31b59a828ef3f1c8d60f28": {
       "workers": {
-        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!"
+        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!",
+        "app/students/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=true!",
+        "app/programs/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!",
+        "app/programs/edit/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/programs/create/page": "action-browser"
+        "app/programs/create/page": "action-browser",
+        "app/students/create/page": "action-browser",
+        "app/programs/[programCode]/page": "rsc",
+        "app/programs/edit/[programCode]/page": "rsc"
       }
     },
     "2ab0cc1eca666fb28c47d93a58e81952b5fa253e": {
       "workers": {
-        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!"
+        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!",
+        "app/students/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=true!",
+        "app/programs/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!",
+        "app/programs/edit/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/programs/create/page": "action-browser"
+        "app/programs/create/page": "action-browser",
+        "app/students/create/page": "action-browser",
+        "app/programs/[programCode]/page": "rsc",
+        "app/programs/edit/[programCode]/page": "rsc"
       }
     },
     "3f77e61e9d694d846177bb06bb4bd4bf5e2a1a83": {
       "workers": {
-        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!"
+        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!",
+        "app/students/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=true!",
+        "app/programs/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!",
+        "app/programs/edit/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/programs/create/page": "action-browser"
+        "app/programs/create/page": "action-browser",
+        "app/students/create/page": "action-browser",
+        "app/programs/[programCode]/page": "rsc",
+        "app/programs/edit/[programCode]/page": "rsc"
       }
     },
     "57d7137aaff650a68b1947ecad9bf6880eee18cf": {
       "workers": {
-        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!"
+        "app/programs/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22UpdateProgram%22%2C%22HandleCreateStudent%22%5D%5D%5D&__client_imported__=true!",
+        "app/students/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=true!",
+        "app/programs/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!",
+        "app/programs/edit/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/programs/create/page": "action-browser"
+        "app/programs/create/page": "action-browser",
+        "app/students/create/page": "action-browser",
+        "app/programs/[programCode]/page": "rsc",
+        "app/programs/edit/[programCode]/page": "rsc"
+      }
+    },
+    "ec78a209c8016cc76d737f14cfba99f38d595a6b": {
+      "workers": {
+        "app/programs/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!",
+        "app/programs/edit/[programCode]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=!",
+        "app/students/create/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5Clearning%5C%5Cprisma%5C%5Ccode-sample-system-nextjs-prisma%5C%5Csrc%5C%5Cactions%5C%5Cactions.ts%22%2C%5B%22HandleCreateProgram%22%2C%22GetProgram%22%2C%22DeleteProgram%22%2C%22HandleCreateStudent%22%2C%22HandleUpdateProgram%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/programs/[programCode]/page": "rsc",
+        "app/programs/edit/[programCode]/page": "rsc",
+        "app/students/create/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "w/rS/hVZz+KbpC/vUpIEp3535XjbO7iUpuRvwT8OvWU="
+  "encryptionKey": "FH+sFqTh6kKTNIbV/+g2TGZndtcRfObXcDF+6NFm0gM="
 }
